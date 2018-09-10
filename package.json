@@ -1,0 +1,29 @@
+{
+  "name": "sucker-cli",
+  "version": "0.1.0",
+  "description": "An Unofficial Pushover Client and Daemon",
+  "main": "src/index.js",
+  "bin": {
+    "sucker": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "package": "pkg .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donnie West <me@donniewest.com>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^2.0.0",
+    "configstore": "^4.0.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0",
+    "node-fetch": "^2.2.0",
+    "node-notifier": "^5.2.1",
+    "shelljs": "^0.8.2",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.4"
+  }
+}
